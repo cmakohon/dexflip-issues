@@ -1,0 +1,29 @@
+name: Question
+description: Ask how something in DexFlip works.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This tracker is public.** Leave out your ship-from ZIP code, your eBay username, your Google email address and any link to your DexFlip Drive folder.
+
+        Check the [docs](https://dexflip.mintlify.app) first. Most questions about setup, pricing and publishing are answered there.
+
+        For a privacy request, use this form and describe the request without your personal details.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where in the app
+      description: The tab or screen your question is about, if any.
+      placeholder: Settings, Selling preferences
+  - type: textarea
+    id: already-tried
+    attributes:
+      label: What you have already checked
+      description: Docs pages you read, or what you tried in the app.
