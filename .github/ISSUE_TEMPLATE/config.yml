@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: DexFlip docs
+    url: https://dexflip.mintlify.app
+    about: How the app works, and troubleshooting for most messages it shows.

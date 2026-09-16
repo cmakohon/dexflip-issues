@@ -1,0 +1,61 @@
+name: Bug report
+description: Something in DexFlip does not work, or does not work as the docs say.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This tracker is public.** Never post a password, a sign-in code, your ship-from ZIP code, your eBay username, your Google email address or a link to your DexFlip Drive folder.
+
+        Check the [troubleshooting pages](https://dexflip.mintlify.app/selling/troubleshooting) first. Most messages the app shows are answered there.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, and what the app did instead of what you expected.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where in the app
+      description: The tab and the step you were on.
+      placeholder: Publish, tapping Publish now on a lot
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: The message the app showed
+      description: Copied word for word. You can also attach a screenshot here.
+      render: text
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Does it happen every time?
+      options:
+        - Every time
+        - Sometimes
+        - Only once so far
+    validations:
+      required: true
+  - type: input
+    id: retry
+    attributes:
+      label: Did Retry or Try again change anything?
+      placeholder: No, the same message came back
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: From Settings > About.
+      placeholder: "1.0 (1)"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: iPhone model and iOS version
+      placeholder: iPhone 17, iOS 26.1
+    validations:
+      required: true
