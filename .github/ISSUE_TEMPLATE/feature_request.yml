@@ -1,0 +1,36 @@
+name: Feature request
+description: Something you would like DexFlip to do.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This tracker is public.** Leave out your ship-from ZIP code, your eBay username, your Google email address and any link to your DexFlip Drive folder.
+
+        Check the [docs](https://dexflip.mintlify.app) first. The app may already do it.
+  - type: textarea
+    id: trying-to-do
+    attributes:
+      label: What you were trying to do
+      description: The job you were doing in the app, not only the feature you want.
+      placeholder: I was building lots of 20 commons and had to tap each card one at a time.
+    validations:
+      required: true
+  - type: textarea
+    id: what-got-in-the-way
+    attributes:
+      label: What got in the way
+      description: What the app does today, and why it did not work for you.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: Your idea, if you have one. A rough one is fine.
+  - type: input
+    id: where
+    attributes:
+      label: Where in the app
+      description: The tab or screen this is about.
+      placeholder: Compose, Build lot
