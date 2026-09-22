@@ -1,8 +1,10 @@
 # DexFlip issues
 
-Bug reports, questions and feature requests for DexFlip, the iPhone app for listing Pokémon cards on eBay. The app's source code is not here.
+Bug reports and feature requests for DexFlip, the iPhone app for listing Pokémon cards on eBay. The app's source code is not here.
 
-Read the docs first: [dexflip.mintlify.app](https://dexflip.mintlify.app). The troubleshooting pages explain most of the messages the app shows.
+Questions and help go to the [DexFlip Discord server](https://discord.gg/gvAmuEaxeb). A question can still be filed here if you have no Discord account.
+
+Read the docs first: [dexflip.app/docs](https://dexflip.app/docs). The troubleshooting pages explain most of the messages the app shows.
 
 ## Opening an issue
 
@@ -24,4 +26,4 @@ For a feature request, say what you were trying to do, not only what you want ad
 - Leave out your ship-from ZIP code, your eBay username and your Google email address.
 - Do not link your DexFlip Drive folder or sheet. Anyone with the link can open it.
 
-There is no email or phone support. See [Support](https://dexflip.mintlify.app/support) and the [privacy policy](https://dexflip.mintlify.app/privacy).
+There is no email or phone support. See [Support](https://dexflip.app/docs/support) and the [privacy policy](https://dexflip.app/docs/privacy).

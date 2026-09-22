@@ -7,7 +7,7 @@ body:
       value: |
         **This tracker is public.** Never post a password, a sign-in code, your ship-from ZIP code, your eBay username, your Google email address or a link to your DexFlip Drive folder.
 
-        Check the [troubleshooting pages](https://dexflip.mintlify.app/selling/troubleshooting) first. Most messages the app shows are answered there.
+        Check the [troubleshooting pages](https://dexflip.app/docs/selling/troubleshooting) first. Most messages the app shows are answered there.
   - type: textarea
     id: what-happened
     attributes:

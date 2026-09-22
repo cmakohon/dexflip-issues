@@ -7,7 +7,9 @@ body:
       value: |
         **This tracker is public.** Leave out your ship-from ZIP code, your eBay username, your Google email address and any link to your DexFlip Drive folder.
 
-        Check the [docs](https://dexflip.mintlify.app) first. Most questions about setup, pricing and publishing are answered there.
+        Check the [docs](https://dexflip.app/docs) first. Most questions about setup, pricing and publishing are answered there.
+
+        The [DexFlip Discord server](https://discord.gg/gvAmuEaxeb) is usually the quicker place to ask.
 
         For a privacy request, use this form and describe the request without your personal details.
   - type: textarea

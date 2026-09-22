@@ -7,7 +7,7 @@ body:
       value: |
         **This tracker is public.** Leave out your ship-from ZIP code, your eBay username, your Google email address and any link to your DexFlip Drive folder.
 
-        Check the [docs](https://dexflip.mintlify.app) first. The app may already do it.
+        Check the [docs](https://dexflip.app/docs) first. The app may already do it.
   - type: textarea
     id: trying-to-do
     attributes:
